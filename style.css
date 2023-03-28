@@ -1,0 +1,72 @@
+body {
+	animation: bg-color 20s infinite;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	font-size: 6em;
+	text-shadow: 2px 2px black;
+	font-family: Arial, sans-serif;
+}
+
+#countdown {
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 2em;
+  }
+
+@keyframes bg-color {
+	0% {
+		background-color: #FF0000; /* Red */
+	}
+	12.5% {
+		background-color: #FF7F00; /* Orange */
+	}
+	25% {
+		background-color: #FFFF00; /* Yellow */
+	}
+	37.5% {
+		background-color: #00FF00; /* Green */
+	}
+	50% {
+		background-color: #0000FF; /* Blue */
+	}
+	62.5% {
+		background-color: #4B0082; /* Indigo */
+	}
+	75% {
+		background-color: #8B00FF; /* Violet */
+	}
+	/* New keyframe that matches the first keyframe */
+	100% {
+		background-color: #FF0000; /* Red */
+	}
+	/* New keyframe that matches the last keyframe */
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	background-color: #333;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
