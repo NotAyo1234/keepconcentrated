@@ -5,7 +5,7 @@ audio.play();
 const countdown = document.getElementById("countdown");
 
 // Set the date we're counting down to
-const countDownDate = new Date("April 1, 2023 00:00:00 GMT+0100").getTime();
+const countDownDate = new Date("April 21, 2023 00:00:00 GMT+0100").getTime();
 
 // Update the countdown every second
 const x = setInterval(() => {
